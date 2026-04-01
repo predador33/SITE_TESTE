@@ -35,9 +35,9 @@
 }
 </style>
 
-<button type="button" class="botao-video">
+
     <video autoplay loop muted playsinline>
         <source src="seu-video.mp4" type="video/mp4">
     </video>
     <span>Clique Aqui</span>
-</button>
+
