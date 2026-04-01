@@ -7,37 +7,4 @@
             background-color: #fa87d883;
             font-family: 'Segoe UI', sans-serif;
         }
-<style>
-.botao-video {
-    position: relative;
-    padding: 0;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    width: 200px;
-    height: 60px;
-}
-.botao-video video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-}
-.botao-video span {
-    position: relative;
-    z-index: 2;
-    color: white;
-    font-weight: bold;
-    /* Adicione estilo para o texto ficar visível sobre o vídeo */
-}
-</style>
-
-
-    <video autoplay loop muted playsinline>
-        <source src="seu-video.mp4" type="video/mp4">
-    </video>
-    <span>Clique Aqui</span>
 
